@@ -4,7 +4,8 @@
   "description": "A library of helper functions in JavaScript that address various situations and needs",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && PATH=$(npm bin):$PATH babel index.js --out-dir dist"
+    "build": "rm -rf dist && PATH=$(npm bin):$PATH babel index.js --out-dir dist",
+    "test": "jest"
   },
   "repository": "git@github.com:jvestolas/aida-js.git",
   "author": "jvestolas <josephvictorestolas@gmail.com>",
@@ -20,6 +21,7 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint-plugin-react": "^7.9.1",
+    "jest": "^23.2.0"
   }
 }
