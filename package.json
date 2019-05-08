@@ -1,6 +1,6 @@
 {
   "name": "aida-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library of helper functions in JavaScript that address various situations and needs",
   "main": "index.js",
   "scripts": {
